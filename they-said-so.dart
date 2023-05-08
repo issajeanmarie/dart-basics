@@ -1,8 +1,7 @@
 import "package:http/http.dart" as http;
-import "dart:convert";
 
 void main() {
-  const API_KEYS = "";
+  const API_KEYS = "TvlNJi12PweNnW4RZ9Cx7yjXi1xPjr0RnbnBqmxo";
   const headers = {'X-TheySaidSo-Api-Secret': API_KEYS};
   var url = Uri.parse("http://quotes.rest/qod.json?category=inspire");
 
